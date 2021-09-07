@@ -456,11 +456,10 @@ footer p{
     }
     .mainp img{
         width: 100%;
-        height: auto;
    
    }
    #due{
-       height: 200px;
+       max-height: 200px;
    }
     
 }
