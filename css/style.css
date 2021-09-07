@@ -416,7 +416,7 @@ footer p{
 }
 
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:600px) {
 
     header{
         position: static;
@@ -458,6 +458,9 @@ footer p{
         width: 100%;
         height: auto;
    
+   }
+   #due{
+       height: 200px;
    }
     
 }
