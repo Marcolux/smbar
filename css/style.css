@@ -350,10 +350,20 @@ footer p{
     #ball1, #ball2{
         display: none;
     }
+
     #ball4,#ball5,#ball3{
-        display: none;
-       
-    }
+        
+        position:static;
+        margin-left: 10px;}
+    
+      #ball4,#ball5{
+            top: 10px;
+            height: 30px;
+            width: 30px;
+            border-radius: 15px;
+        }
+
+
 
     
     #picleft{
@@ -456,8 +466,6 @@ footer{
    }
 
 
-   #ball4,#ball5,#ball3{
-    position:static;
-    margin-left: 10px;}
+
     
 }
