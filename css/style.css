@@ -199,11 +199,7 @@ header{
 
 }
 
-#btmpic img{
-    display: none;
-    height: 80px;
-    width: 400px;
-}
+
 
 /* main*/
 
@@ -416,4 +412,52 @@ footer p{
     border-bottom-right-radius: 3px;
     border-bottom-left-radius: 3px;
     border: 1px solid black;
+}
+}
+
+
+@media screen and (max-width:500px) {
+
+    header{
+        position: static;
+    }
+
+    #mobile{
+        position:absolute;
+        top:0px;
+    }
+
+    #presentation{
+        position: static;
+        margin:0px
+    }
+    #bar{
+        position: static;
+        height: 12px;
+    }
+    footer{
+        position: static;
+    }
+    #btmpic{
+        position: static;
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+
+    #ball4,#ball5,#ball3{
+        position:static;
+        margin-left: 10px;
+    }
+
+    #main{
+        position: static;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .mainp img{
+        width: 100%;
+        height: auto;
+   
+   }
+    
 }
