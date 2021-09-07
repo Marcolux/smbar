@@ -242,6 +242,7 @@ header{
      bottom: 275px;
      right: 50px;
      width: max-content;
+     z-index: -1;
     
 }
 
@@ -298,6 +299,7 @@ footer p{
     font-size: 24px;
 }
 
+        
 
 @media screen and (max-width:900px) {
     #title
@@ -323,22 +325,25 @@ footer p{
           display: none;
     }
     #mobile{
+        position: fixed;
+        top:0px;
         display: flex;
         box-sizing: border-box;
         width: 100%;
-        justify-content: space-evenly;
-        position: fixed;
-        top: 0px;
-        left: 30px;
+        justify-content: center;
+
     }
     #mobile li {
+        display: flex;
+        box-sizing: border-box;
         width: 100%;
-        list-style: none;   
+        list-style: none;  
+        justify-content: center; 
     }
 
     #mobile i{
+        box-sizing: border-box;
         color:white;
-        padding-left: 10px;
         
     }
 
